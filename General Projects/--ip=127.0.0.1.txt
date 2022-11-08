@@ -1,0 +1,281 @@
+Feb 24, 2022 - Mar 23, 2022
+▼
+To continue getting data after your trial has ended, go to
+hub.powermyanalytics.com
+PMA Trial Status
+PMA Subscription ID
+Active
+36168429
+▲
+Customizable template provided by:
+Automate your marketing reports
+Insights Overview
+Followers
+266,041
+Impressions
+1M
+-8.8%
+Reach
+645.6K
+9.6%
+New Posts
+25
+Website Clicks
+2K
+-7.2%
+Top Posts
+Published
+Media Type
+Thumb
+Caption
+Impressions
+Engagement
+Reach
+Likes
+Saves
+Comments
+Mar 12, 2022, 6 PM
+IMAGE
+As clever as it looks.
+When not being used
+for chopping wood,
+digging, or setting up
+camp, the Clever
+Girl™ Kukri can be
+transported with
+ease. Designed with a
+belt loop on its
+sheath and also
+featuring a lanyard
+hole for a drop leg
+carry, however you
+choose to pack it, it’s
+at the ready at a
+moment's notice.
+Follow link in bio.
+#Con�denceInHand
+🔪: CLEVER GIRL™
+KUKRI 2710
+Designer: Austin
+McGlaun | Columbus,
+GA
+71,767
+4,903
+69,556
+4,449
+440
+14
+Grand total
+794,776
+42,445
+728,279
+39,783
+2,354
+308
+▼
+If you recently connected your Instagram account with a Facebook page, posts that are published after that linking date will
+be available, but none before that date.  Post metrics will only report organic values.  Promoted post impressions, likes, ect.
+are not included.
+Feb 24, 2022 - Mar 23, 2022
+▼
+To continue getting data after your trial has ended, go to
+hub.powermyanalytics.com
+PMA Trial Status
+PMA Subscription ID
+Active
+36168429
+▲
+Customizable template provided by:
+Automate your marketing reports
+Insights Activity
+Interactions
+Pro�le Views
+Follows
+Website Clicks
+Email Contacts
+Phone Call Clicks
+Get Directions Clicks
+Text Message Clicks
+Feb 24
+Feb 25
+Feb 26
+Feb 27
+Feb 28
+Mar 1
+Mar 2
+Mar 3
+Mar 4
+Mar 5
+Mar 6
+Mar 7
+Mar 8
+Mar 9
+Mar 10
+Mar 11
+Mar 12
+Mar 13
+Mar 14
+Mar 15
+Mar 16
+Mar 17
+Mar 18
+Mar 19
+Mar 20
+Mar 21
+Mar 22
+Mar 23
+0
+250
+500
+750
+1K
+1.25K
+Discovery
+Reach
+Impressions
+Feb 24
+Feb 25
+Feb 26
+Feb 27
+Feb 28
+Mar 1
+Mar 2
+Mar 3
+Mar 4
+Mar 5
+Mar 6
+Mar 7
+Mar 8
+Mar 9
+Mar 10
+Mar 11
+Mar 12
+Mar 13
+Mar 14
+Mar 15
+Mar 16
+Mar 17
+Mar 18
+Mar 19
+Mar 20
+Mar 21
+Mar 22
+Mar 23
+0
+25K
+50K
+75K
+100K
+125K
+Feb 24, 2022 - Mar 23, 2022
+▼
+To continue getting data after your trial has ended, go to
+hub.powermyanalytics.com
+PMA Trial Status
+PMA Subscription ID
+Active
+36168429
+▲
+Customizable template provided by:
+Automate your marketing reports
+Story Date
+Thumb
+Caption
+Media Type
+Impressions
+Reach
+Taps Back
+Taps Foreward
+Replies
+Feb 24, 2022, 9 PM
+@JONGRAHAMSR
+IMAGE
+7,551
+7,335
+152
+5,764
+1
+Feb 24, 2022, 9 PM
+@JONGRAHAMSR
+IMAGE
+5,881
+5,840
+104
+5,604
+0
+Grand total
+48,370
+47,932
+1,271
+44,060
+3
+▲
+Notes: Stories data will start becoming available for all Stores posted after you connect with
+Instagram because the Stories API does not store data (but we do!).  However, numbers may
+not perfectly align due to limitations with the Stories API.
+Stories Insights
+Feb 24, 2022 - Mar 23, 2022
+▼
+To continue getting data after your trial has ended, go to
+hub.powermyanalytics.com
+PMA Trial Status
+PMA Subscription ID
+Active
+36168429
+▲
+Customizable template provided by:
+Automate your marketing reports
+Demographics Overview
+Followers by Country
+324
+324
+324
+124,554
+124,554
+124,554
+Followers by Age
+M
+U
+F
+10.7%
+85.9%
+Followers by Gender
+25-34
+35-44
+45-54
+18-24
+55-64
+65+
+13-17
+35.2%
+13.6%
+15%
+29.4%
+Feb 24, 2022 - Mar 23, 2022
+▼
+To continue getting data after your trial has ended, go to
+hub.powermyanalytics.com
+PMA Trial Status
+PMA Subscription ID
+Active
+36168429
+▲
+Customizable template provided by:
+Automate your marketing reports
+Connector Notes
+- The full list of �elds available for Instagram Insights, along with their details, can be found here:
+https://www.powermyanalytics.com/connectors/instagram-insights/�elds/
+- Please include "today" in your reporting date range when you �rst connect with us because we cannot back�ll historical data for the
+main metrics, such as Followers, Posts and Lists.  We will store this data from the day you sign up with us going forward so you have
+historical data starting on day 1 over time.
+- Instagram stories:  We save all stories that are published from the day you sign up for Instagram with us going forward. We cannot pull
+Stories data from before you sign up with us because Stories are not saved in the Instagram API for more than 24 hours after they are
+published.  Also, due to Stories API limitations, the numbers may not perfectly align between our connector and actual Stories report
+data.  We fetch data hourly and may not fetch the exact snapshot of the metrics as the 24-hour clock expires.
+Power My Analytics will add new �elds as Instagram adds new �elds to their API.  If you do not see a �eld that you know is available in
+the API, please contact us to discuss:
+contactus@powermyanalytics.com
+800-746-3083
+Cheers!
+The Power My Analytics Team
+

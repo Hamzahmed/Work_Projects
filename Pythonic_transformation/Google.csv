@@ -1,0 +1,21 @@
+Date,Engine,Campaign,Impressions,Clicks,Cost,Conversions
+1/1/22,Google,Campaign_A,1000,150,$181.50 ,20
+1/1/22,Google,Campaign_B,900,125,$287.50 ,28
+1/2/22,Google,Campaign_A,990,138,$316.25 ,15
+1/2/22,Google,Campaign_B,891,124,$284.63 ,30
+1/3/22,Google,Campaign_A,980,136,$313.09 ,18
+1/3/22,Google,Campaign_B,882,122,$281.78 ,35
+1/4/22,Google,Campaign_A,970,134,$309.96 ,25
+1/4/22,Google,Campaign_B,873,121,$278.96 ,13
+1/5/22,Google,Campaign_A,960,133,$306.86 ,32
+1/5/22,Google,Campaign_B,864,120,$276.17 ,25
+1/6/22,Google,Campaign_A,950,132,$303.79 ,28
+1/6/22,Google,Campaign_B,855,119,$273.41 ,33
+1/7/22,Google,Campaign_A,941,131,$300.75 ,18
+1/7/22,Google,Campaign_B,847,118,$270.68 ,21
+1/8/22,Google,Campaign_A,932,130,$297.75 ,14
+1/8/22,Google,Campaign_B,839,117,$267.98 ,25
+1/9/22,Google,Campaign_A,923,129,$294.78 ,35
+1/9/22,Google,Campaign_B,831,116,$265.30 ,16
+1/10/22,Google,Campaign_A,914,128,$291.83 ,24
+1/10/22,Google,Campaign_B,823,115,$262.65 ,35

@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <br>
+    <br>
+    <br>
+    <br>
+    <strong style = "color:#FF2600;font-family:barlow;font-size:300%;text-align:center" class="text-center mb-3">{% block title %}Walmart Link Generator{% endblock %}</strong>
+    
+    <br>
+    <b style ="text-align:center";"font-family:barlow;">Provided By Liquid Analytics</b>
+    <br>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8"> 
+            <form method="post" action="{{url_for('index')}}">
+            <div class="form-floating mb-3">
+                <input type="text" name="url" id="url"
+                    placeholder="Enter looooooooooooong URL" class="form-control"
+                    value="{{ request.form['url'] }}" autofocus></input>
+                <label style="font-family:barlow;"for="url">URL</label>
+            </div>
+            <div class="form-floating mb-3">
+            <!-- <input type="text" name="custom_id" id="custom_id"
+                    placeholder="Want to customise? (optional)" class="form-control"
+                    value="{{ request.form['custom_id'] }}"></input>
+                <label style="font-family:barlow;" for="custom_id">Custom ID</label>-->
+
+                <input type="text" name="custom_id" id="custom_id"
+                    placeholder="Want to customise? (optional)" class="form-control"
+                    value="{{ request.form['custom_id'] }}"></input>
+                <label style="font-family:barlow;" for="custom_id">Custom ID</label>
+                
+            </div>
+
+            <div class="form-group text-center">
+                <button style="background:#B10361;color:white; font-family:barlow;" type="submit" class="btn btn-lg btn-primary">Create URL!</button>
+            </div>
+            </form>
+            <br>
+            <br>
+            <!--<form method="get"  action="http://127.0.0.1:5000/stats">
+                <button style="background:#B10361;color:white; font-family:barlow;" value="Show Stats!" />Show Stats! </button>
+            </form> 
+            <a href="http://127.0.0.1:5000/stats" class="button1">Show Stats!</a> -->
+            {% if new_url %}
+            <hr>
+            <span><a href="{{ new_url }}" target="_blank">{{ new_url }}</a></span>
+            {% endif %}
+            <form>
+{% endblock %}
