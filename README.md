@@ -1,4 +1,4 @@
-# Work_Projects
+# Work Projects
 
 Hello and welcome to my GitHub work repository! Here you will find a diverse collection of projects that I have worked on, both independently and in collaboration with talented teams.
 
