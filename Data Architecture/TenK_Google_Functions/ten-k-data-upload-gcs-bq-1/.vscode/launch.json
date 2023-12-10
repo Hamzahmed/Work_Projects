@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Deploy Cloud Function",
+      "type": "cloudcode.cloudfunctions",
+      "request": "launch",
+      "functionName": "TenK-Data-Upload-GCS-BQ",
+      "region": "us-east1",
+      "gen": "GEN_2",
+      "revision": "tenk-data-upload-gcs-bq-00020-qew",
+      "entryPoint": "get_and_upload_api_data",
+      "runtime": "python311",
+      "testInput": ""
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+name: Deploy Eagle SQL to BigQuery
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'Eagle/Eagle_Queries/**'
+    
+
+env:
+  PROJECT_ID: sandbox
+
+jobs:
+  deploy-sql:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Get changed files
+      id: changed-files
+      uses: tj-actions/changed-files@v39
+
+    - name: Extract modified SQL files
+      run: |
+        sql_files=()
+        for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+          if [[ "$file" == "Eagle/Eagle_Queries/"*".sql" ]]; then
+            sql_files+=("$file")
+          fi
+        done
+        echo "SQL_FILES=${sql_files[@]}" >> $GITHUB_ENV
+
+    - name: Debug - Print Modified SQL files
+      run: |
+        echo "The modified SQL files are: $SQL_FILES"
+
+    - name: Set up Cloud SDK
+      uses: google-github-actions/setup-gcloud@v1
+      with:
+        project_id: ${{ env.PROJECT_ID }}
+        service_account_key: ${{ secrets.GCPSECRETSCONNECTION }}
+        export_default_credentials: true
+
+    - name: Authenticate with GCP
+      run: |
+        echo '${{ secrets.GCPSECRETSCONNECTION }}' | gcloud auth activate-service-account --key-file=-
+        gcloud config set project ${{ env.PROJECT_ID }}
+
+    - name: Deploy changed SQL files to BigQuery
+      run: |
+        for sql_file in $SQL_FILES; do
+          bq query --use_legacy_sql=false "$(cat $sql_file)"
+        done
+
+
+    # - name: Sync changes to Cloud Storage
+    #   run: |
+    #     for file in $SQL_FILES; do
+    #       # Extract the folder name from the full path
+    #       folder_name=$(dirname $file | cut -d'/' -f3)
+          
+    #       # Extract the filename from the full path
+    #       filename=$(basename $file)
+          
+    #       # Check if the folder exists in the bucket
+    #       if ! gsutil -q stat gs://data-warehouse-tables-transformations/$folder_name/; then
+    #         echo "Folder $folder_name does not exist in the bucket. It will be created."
+    #       else
+    #         echo "Folder $folder_name exists in the bucket."
+    #       fi
+    #       # Use gsutil to copy the file to the desired Cloud Storage location
+    #       gsutil cp $file gs://data-warehouse-tables-transformations/$folder_name/$filename
+    #     done
+
+

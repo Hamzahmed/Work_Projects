@@ -1,0 +1,686 @@
+[2022-08-12 18:22:37,039] {processor.py:163} INFO - Started process (PID=39) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:22:37,042] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:22:37,046] {logging_mixin.py:109} INFO - [2022-08-12 18:22:37,046] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:22:37,101] {logging_mixin.py:109} INFO - [2022-08-12 18:22:37,079] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:22:37,104] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:22:37,198] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.170 seconds
+[2022-08-12 18:23:07,373] {processor.py:163} INFO - Started process (PID=61) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:23:07,375] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:23:07,377] {logging_mixin.py:109} INFO - [2022-08-12 18:23:07,376] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:23:07,388] {logging_mixin.py:109} INFO - [2022-08-12 18:23:07,386] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:23:07,389] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:23:07,411] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.043 seconds
+[2022-08-12 18:23:37,534] {processor.py:163} INFO - Started process (PID=93) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:23:37,535] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:23:37,536] {logging_mixin.py:109} INFO - [2022-08-12 18:23:37,536] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:23:37,547] {logging_mixin.py:109} INFO - [2022-08-12 18:23:37,545] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:23:37,548] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:23:37,571] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.041 seconds
+[2022-08-12 18:24:07,760] {processor.py:163} INFO - Started process (PID=116) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:24:07,762] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:24:07,764] {logging_mixin.py:109} INFO - [2022-08-12 18:24:07,764] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:24:07,777] {logging_mixin.py:109} INFO - [2022-08-12 18:24:07,775] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:24:07,779] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:24:07,807] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.051 seconds
+[2022-08-12 18:24:37,975] {processor.py:163} INFO - Started process (PID=150) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:24:37,977] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:24:37,979] {logging_mixin.py:109} INFO - [2022-08-12 18:24:37,978] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:24:37,989] {logging_mixin.py:109} INFO - [2022-08-12 18:24:37,988] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:24:37,991] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:24:38,029] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.057 seconds
+[2022-08-12 18:25:08,184] {processor.py:163} INFO - Started process (PID=183) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:25:08,187] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:25:08,188] {logging_mixin.py:109} INFO - [2022-08-12 18:25:08,188] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:25:08,204] {logging_mixin.py:109} INFO - [2022-08-12 18:25:08,202] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:25:08,206] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:25:08,242] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.063 seconds
+[2022-08-12 18:25:38,422] {processor.py:163} INFO - Started process (PID=207) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:25:38,425] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:25:38,428] {logging_mixin.py:109} INFO - [2022-08-12 18:25:38,426] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:25:38,450] {logging_mixin.py:109} INFO - [2022-08-12 18:25:38,447] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:25:38,453] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:25:38,486] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.068 seconds
+[2022-08-12 18:26:08,637] {processor.py:163} INFO - Started process (PID=238) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:26:08,639] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:26:08,641] {logging_mixin.py:109} INFO - [2022-08-12 18:26:08,641] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:26:08,652] {logging_mixin.py:109} INFO - [2022-08-12 18:26:08,650] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:26:08,653] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:26:08,679] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.045 seconds
+[2022-08-12 18:26:38,826] {processor.py:163} INFO - Started process (PID=258) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:26:38,828] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:26:38,829] {logging_mixin.py:109} INFO - [2022-08-12 18:26:38,829] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:26:38,843] {logging_mixin.py:109} INFO - [2022-08-12 18:26:38,841] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:26:38,845] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:26:38,865] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.042 seconds
+[2022-08-12 18:27:09,034] {processor.py:163} INFO - Started process (PID=289) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:27:09,036] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:27:09,037] {logging_mixin.py:109} INFO - [2022-08-12 18:27:09,037] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:27:09,051] {logging_mixin.py:109} INFO - [2022-08-12 18:27:09,050] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:27:09,052] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:27:09,076] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.048 seconds
+[2022-08-12 18:27:39,300] {processor.py:163} INFO - Started process (PID=311) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:27:39,302] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:27:39,303] {logging_mixin.py:109} INFO - [2022-08-12 18:27:39,303] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:27:39,316] {logging_mixin.py:109} INFO - [2022-08-12 18:27:39,314] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:27:39,316] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:27:39,338] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.042 seconds
+[2022-08-12 18:28:09,508] {processor.py:163} INFO - Started process (PID=345) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:28:09,510] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:28:09,512] {logging_mixin.py:109} INFO - [2022-08-12 18:28:09,511] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:28:09,524] {logging_mixin.py:109} INFO - [2022-08-12 18:28:09,522] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:28:09,525] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:28:09,547] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.042 seconds
+[2022-08-12 18:28:39,727] {processor.py:163} INFO - Started process (PID=367) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:28:39,730] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:28:39,732] {logging_mixin.py:109} INFO - [2022-08-12 18:28:39,732] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:28:39,754] {logging_mixin.py:109} INFO - [2022-08-12 18:28:39,750] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:28:39,756] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:28:39,798] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.078 seconds
+[2022-08-12 18:29:09,988] {processor.py:163} INFO - Started process (PID=402) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:29:09,990] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:29:09,991] {logging_mixin.py:109} INFO - [2022-08-12 18:29:09,991] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:29:10,002] {logging_mixin.py:109} INFO - [2022-08-12 18:29:10,000] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:29:10,002] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:29:10,022] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.038 seconds
+[2022-08-12 18:29:40,208] {processor.py:163} INFO - Started process (PID=425) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:29:40,212] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:29:40,215] {logging_mixin.py:109} INFO - [2022-08-12 18:29:40,214] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:29:40,235] {logging_mixin.py:109} INFO - [2022-08-12 18:29:40,233] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:29:40,237] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:29:40,282] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.081 seconds
+[2022-08-12 18:30:10,457] {processor.py:163} INFO - Started process (PID=457) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:30:10,459] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:30:10,461] {logging_mixin.py:109} INFO - [2022-08-12 18:30:10,460] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:30:10,471] {logging_mixin.py:109} INFO - [2022-08-12 18:30:10,470] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:30:10,472] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:30:10,499] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.046 seconds
+[2022-08-12 18:30:40,688] {processor.py:163} INFO - Started process (PID=479) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:30:40,690] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:30:40,691] {logging_mixin.py:109} INFO - [2022-08-12 18:30:40,691] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:30:40,702] {logging_mixin.py:109} INFO - [2022-08-12 18:30:40,700] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:30:40,703] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:30:40,723] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.040 seconds
+[2022-08-12 18:31:10,890] {processor.py:163} INFO - Started process (PID=509) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:31:10,892] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:31:10,893] {logging_mixin.py:109} INFO - [2022-08-12 18:31:10,893] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:31:10,903] {logging_mixin.py:109} INFO - [2022-08-12 18:31:10,902] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:31:10,904] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:31:10,925] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.038 seconds
+[2022-08-12 18:31:41,064] {processor.py:163} INFO - Started process (PID=541) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:31:41,067] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:31:41,069] {logging_mixin.py:109} INFO - [2022-08-12 18:31:41,069] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:31:41,093] {logging_mixin.py:109} INFO - [2022-08-12 18:31:41,091] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:31:41,094] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:31:41,120] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.063 seconds
+[2022-08-12 18:32:11,311] {processor.py:163} INFO - Started process (PID=564) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:32:11,313] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:32:11,314] {logging_mixin.py:109} INFO - [2022-08-12 18:32:11,314] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:32:11,325] {logging_mixin.py:109} INFO - [2022-08-12 18:32:11,324] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:32:11,327] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:32:11,349] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.042 seconds
+[2022-08-12 18:32:41,611] {processor.py:163} INFO - Started process (PID=598) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:32:41,613] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:32:41,614] {logging_mixin.py:109} INFO - [2022-08-12 18:32:41,614] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:32:41,625] {logging_mixin.py:109} INFO - [2022-08-12 18:32:41,623] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:32:41,626] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:32:41,646] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.040 seconds
+[2022-08-12 18:33:11,816] {processor.py:163} INFO - Started process (PID=619) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:33:11,819] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:33:11,820] {logging_mixin.py:109} INFO - [2022-08-12 18:33:11,819] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:33:11,831] {logging_mixin.py:109} INFO - [2022-08-12 18:33:11,829] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:33:11,831] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:33:11,853] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.041 seconds
+[2022-08-12 18:33:42,029] {processor.py:163} INFO - Started process (PID=651) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:33:42,032] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:33:42,033] {logging_mixin.py:109} INFO - [2022-08-12 18:33:42,033] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:33:42,045] {logging_mixin.py:109} INFO - [2022-08-12 18:33:42,044] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:33:42,047] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:33:42,084] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.059 seconds
+[2022-08-12 18:34:12,256] {processor.py:163} INFO - Started process (PID=674) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:34:12,259] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:34:12,261] {logging_mixin.py:109} INFO - [2022-08-12 18:34:12,261] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:34:12,271] {logging_mixin.py:109} INFO - [2022-08-12 18:34:12,269] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:34:12,272] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:34:12,295] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.044 seconds
+[2022-08-12 18:34:42,479] {processor.py:163} INFO - Started process (PID=706) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:34:42,481] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:34:42,483] {logging_mixin.py:109} INFO - [2022-08-12 18:34:42,483] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:34:42,497] {logging_mixin.py:109} INFO - [2022-08-12 18:34:42,495] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:34:42,498] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:34:42,522] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.050 seconds
+[2022-08-12 18:35:12,661] {processor.py:163} INFO - Started process (PID=737) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:35:12,663] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:35:12,664] {logging_mixin.py:109} INFO - [2022-08-12 18:35:12,664] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:35:12,675] {logging_mixin.py:109} INFO - [2022-08-12 18:35:12,672] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:35:12,676] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:35:12,701] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.044 seconds
+[2022-08-12 18:35:42,869] {processor.py:163} INFO - Started process (PID=758) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:35:42,871] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:35:42,872] {logging_mixin.py:109} INFO - [2022-08-12 18:35:42,872] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:35:42,881] {logging_mixin.py:109} INFO - [2022-08-12 18:35:42,879] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:35:42,881] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:35:42,905] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.039 seconds
+[2022-08-12 18:36:13,064] {processor.py:163} INFO - Started process (PID=789) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:36:13,066] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:36:13,069] {logging_mixin.py:109} INFO - [2022-08-12 18:36:13,069] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:36:13,086] {logging_mixin.py:109} INFO - [2022-08-12 18:36:13,084] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:36:13,088] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:36:13,127] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.080 seconds
+[2022-08-12 18:36:43,314] {processor.py:163} INFO - Started process (PID=812) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:36:43,317] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:36:43,320] {logging_mixin.py:109} INFO - [2022-08-12 18:36:43,320] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:36:43,335] {logging_mixin.py:109} INFO - [2022-08-12 18:36:43,333] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:36:43,336] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:36:43,371] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.065 seconds
+[2022-08-12 18:37:13,502] {processor.py:163} INFO - Started process (PID=844) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:37:13,505] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:37:13,507] {logging_mixin.py:109} INFO - [2022-08-12 18:37:13,507] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:37:13,522] {logging_mixin.py:109} INFO - [2022-08-12 18:37:13,520] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:37:13,522] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:37:13,547] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.050 seconds
+[2022-08-12 18:37:43,771] {processor.py:163} INFO - Started process (PID=865) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:37:43,773] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:37:43,774] {logging_mixin.py:109} INFO - [2022-08-12 18:37:43,774] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:37:43,785] {logging_mixin.py:109} INFO - [2022-08-12 18:37:43,783] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:37:43,786] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:37:43,807] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.041 seconds
+[2022-08-12 18:38:13,964] {processor.py:163} INFO - Started process (PID=896) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:38:13,968] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:38:13,970] {logging_mixin.py:109} INFO - [2022-08-12 18:38:13,970] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:38:13,993] {logging_mixin.py:109} INFO - [2022-08-12 18:38:13,989] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:38:13,994] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:38:14,042] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.085 seconds
+[2022-08-12 18:38:44,242] {processor.py:163} INFO - Started process (PID=916) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:38:44,245] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:38:44,248] {logging_mixin.py:109} INFO - [2022-08-12 18:38:44,248] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:38:44,262] {logging_mixin.py:109} INFO - [2022-08-12 18:38:44,261] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:38:44,264] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:38:44,282] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.046 seconds
+[2022-08-12 18:39:14,457] {processor.py:163} INFO - Started process (PID=948) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:39:14,458] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:39:14,459] {logging_mixin.py:109} INFO - [2022-08-12 18:39:14,459] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:39:14,469] {logging_mixin.py:109} INFO - [2022-08-12 18:39:14,468] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:39:14,470] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:39:14,491] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.039 seconds
+[2022-08-12 18:39:44,637] {processor.py:163} INFO - Started process (PID=970) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:39:44,639] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:39:44,640] {logging_mixin.py:109} INFO - [2022-08-12 18:39:44,640] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:39:44,654] {logging_mixin.py:109} INFO - [2022-08-12 18:39:44,651] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:39:44,655] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:39:44,679] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.047 seconds
+[2022-08-12 18:40:14,827] {processor.py:163} INFO - Started process (PID=1002) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:40:14,830] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:40:14,831] {logging_mixin.py:109} INFO - [2022-08-12 18:40:14,831] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:40:14,842] {logging_mixin.py:109} INFO - [2022-08-12 18:40:14,841] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:40:14,843] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:40:14,863] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.041 seconds
+[2022-08-12 18:40:45,016] {processor.py:163} INFO - Started process (PID=1023) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:40:45,018] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:40:45,019] {logging_mixin.py:109} INFO - [2022-08-12 18:40:45,019] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:40:45,036] {logging_mixin.py:109} INFO - [2022-08-12 18:40:45,034] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:40:45,038] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:40:45,071] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.061 seconds
+[2022-08-12 18:41:15,224] {processor.py:163} INFO - Started process (PID=1058) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:41:15,227] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:41:15,229] {logging_mixin.py:109} INFO - [2022-08-12 18:41:15,229] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:41:15,250] {logging_mixin.py:109} INFO - [2022-08-12 18:41:15,247] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:41:15,252] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:41:15,288] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.070 seconds
+[2022-08-12 18:41:45,489] {processor.py:163} INFO - Started process (PID=1080) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:41:45,491] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:41:45,493] {logging_mixin.py:109} INFO - [2022-08-12 18:41:45,493] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:41:45,504] {logging_mixin.py:109} INFO - [2022-08-12 18:41:45,503] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:41:45,505] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:41:45,525] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.039 seconds
+[2022-08-12 18:42:15,697] {processor.py:163} INFO - Started process (PID=1113) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:42:15,699] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:42:15,700] {logging_mixin.py:109} INFO - [2022-08-12 18:42:15,700] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:42:15,711] {logging_mixin.py:109} INFO - [2022-08-12 18:42:15,709] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:42:15,713] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:42:15,741] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.049 seconds
+[2022-08-12 18:42:46,566] {processor.py:163} INFO - Started process (PID=1145) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:42:46,568] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:42:46,570] {logging_mixin.py:109} INFO - [2022-08-12 18:42:46,570] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:42:46,581] {logging_mixin.py:109} INFO - [2022-08-12 18:42:46,579] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:42:46,582] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:42:46,606] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.042 seconds
+[2022-08-12 18:43:16,775] {processor.py:163} INFO - Started process (PID=1166) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:43:16,777] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:43:16,778] {logging_mixin.py:109} INFO - [2022-08-12 18:43:16,778] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:43:16,792] {logging_mixin.py:109} INFO - [2022-08-12 18:43:16,790] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:43:16,793] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:43:16,819] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.049 seconds
+[2022-08-12 18:43:47,023] {processor.py:163} INFO - Started process (PID=1200) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:43:47,025] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:43:47,027] {logging_mixin.py:109} INFO - [2022-08-12 18:43:47,027] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:43:47,053] {logging_mixin.py:109} INFO - [2022-08-12 18:43:47,042] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:43:47,054] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:43:47,081] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.063 seconds
+[2022-08-12 18:44:17,238] {processor.py:163} INFO - Started process (PID=1222) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:44:17,240] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:44:17,241] {logging_mixin.py:109} INFO - [2022-08-12 18:44:17,241] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:44:17,253] {logging_mixin.py:109} INFO - [2022-08-12 18:44:17,250] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:44:17,255] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:44:17,268] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.055 seconds
+[2022-08-12 18:44:47,429] {processor.py:163} INFO - Started process (PID=1254) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:44:47,432] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:44:47,434] {logging_mixin.py:109} INFO - [2022-08-12 18:44:47,434] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:44:47,447] {logging_mixin.py:109} INFO - [2022-08-12 18:44:47,445] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:44:47,448] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:44:47,472] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.049 seconds
+[2022-08-12 18:45:17,616] {processor.py:163} INFO - Started process (PID=1277) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:45:17,618] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:45:17,619] {logging_mixin.py:109} INFO - [2022-08-12 18:45:17,619] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:45:17,629] {logging_mixin.py:109} INFO - [2022-08-12 18:45:17,627] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:45:17,629] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:45:17,651] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.040 seconds
+[2022-08-12 18:45:47,810] {processor.py:163} INFO - Started process (PID=1308) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:45:47,812] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:45:47,813] {logging_mixin.py:109} INFO - [2022-08-12 18:45:47,813] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:45:47,823] {logging_mixin.py:109} INFO - [2022-08-12 18:45:47,821] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:45:47,823] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:45:47,843] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.039 seconds
+[2022-08-12 18:46:17,914] {processor.py:163} INFO - Started process (PID=1330) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:46:17,917] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:46:17,919] {logging_mixin.py:109} INFO - [2022-08-12 18:46:17,918] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:46:17,931] {logging_mixin.py:109} INFO - [2022-08-12 18:46:17,929] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:46:17,932] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:46:17,953] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.044 seconds
+[2022-08-12 18:46:48,127] {processor.py:163} INFO - Started process (PID=1362) to work on /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:46:48,129] {processor.py:642} INFO - Processing file /opt/airflow/dags/Sprout_Social.py for tasks to queue
+[2022-08-12 18:46:48,131] {logging_mixin.py:109} INFO - [2022-08-12 18:46:48,131] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:46:48,145] {logging_mixin.py:109} INFO - [2022-08-12 18:46:48,143] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Sprout_Social.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sprout_Social.py", line 5, in <module>
+    from airflow.operators.bash_operator import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash_operator' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash_operator.py)
+[2022-08-12 18:46:48,146] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/Sprout_Social.py
+[2022-08-12 18:46:48,170] {processor.py:171} INFO - Processing /opt/airflow/dags/Sprout_Social.py took 0.047 seconds

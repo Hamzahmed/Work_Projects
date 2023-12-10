@@ -1,0 +1,16 @@
+## [Data Architecture](https://github.com/Hamzahmed/Work_Projects/tree/main/Data%20Architecture)
+As part of our company's data consolidation initiative, I took the lead in creating a robust cloud environment to centralize all of our Method data, which was previously scattered across multiple locations. After careful consideration of various solutions, we determined that Google Cloud Platform (GCP) with its suite of powerful tools would be the ideal choice for this endeavor. 
+
+To retrieve data from the 10,000ft or Resource Manager from Smartsheets, we utilized Google Functions, which enabled us to make efficient API calls and retrieve data from multiple tables at different intervals. We designed our workflow to retrieve the Assignment table, Project table, User table, and Assignable table on an hourly basis, while the Placeholders and Status_Options tables were updated daily.
+
+Using Google Functions, we fetched the tables and stored them in a Google Cloud Storage bucket. From there, the data seamlessly flowed into BigQuery, our data warehousing solution. Within BigQuery, we organized the data into three distinct datasets: Landing, Raw, Refined and Presentation.
+
+The Landing dataset acted as the entry point for all the data retrieved from the API, ensuring that it remained up to date with hourly updates. The Raw dataset served as the processing area, where various data transformations and manipulations were applied to cleanse and structure the information. The Refined dataset housed the processed and refined data, ready for analysis, visualization, and export. Finally, the presentation dataset hosted all the tables with complex joins and views that your analyst, BI team, data scientists and other stakeholders will require to work with the data.
+
+To facilitate data orchestration and scheduling, we leveraged several other GCP services. Google Cloud Scheduler allowed us to automate the retrieval process by triggering the Google Functions at the designated intervals. Pub/Sub provided a reliable messaging system to decouple components and ensure smooth communication between services. Additionally, we utilized Cloud Build and Cloud Deployment Manager to streamline the deployment and management of our cloud resources.
+
+One crucial aspect of our data consolidation efforts was the implementation of incremental load and Slowly Changing Dimension (SCD) techniques for our User table. This approach allowed us to track and record changes in user information, such as address updates, by maintaining a historical record as separate fields. This comprehensive historical account of user data proved invaluable for analysis and decision-making.
+
+As a result of our comprehensive cloud environment and efficient data consolidation strategy, we were able to centralize Method's data sources, harmonize information, and create a single source of truth for our organization. This cohesive and scalable setup not only enhanced data accessibility and integrity but also enabled us to visualize and export data through Google Sheets and Looker dashboards, empowering our teams with valuable insights for informed decision-making.
+
+Overall, this initiative exemplifies our commitment to leveraging cutting-edge technologies, such as GCP, to optimize our data infrastructure and unlock the full potential of our data assets.

@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Deploy Cloud Function",
+      "type": "cloudcode.cloudfunctions",
+      "request": "launch",
+      "functionName": "TenK-Incremental-Load",
+      "region": "us-east1",
+      "gen": "GEN_2",
+      "revision": "tenk-incremental-load-00001-div",
+      "entryPoint": "merge_assignments",
+      "runtime": "python311",
+      "testInput": ""
+    }
+  ]
+}

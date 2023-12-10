@@ -1,0 +1,38 @@
+[2022-04-30 23:26:19,806] {processor.py:163} INFO - Started process (PID=30) to work on /opt/airflow/dags/podsight_ETL.py
+[2022-04-30 23:26:19,821] {processor.py:642} INFO - Processing file /opt/airflow/dags/podsight_ETL.py for tasks to queue
+[2022-04-30 23:26:19,823] {logging_mixin.py:109} INFO - [2022-04-30 23:26:19,823] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podsight_ETL.py
+[2022-04-30 23:26:19,898] {processor.py:652} INFO - DAG(s) dict_keys(['podsight_ETL']) retrieved from /opt/airflow/dags/podsight_ETL.py
+[2022-04-30 23:26:27,714] {logging_mixin.py:109} INFO - [2022-04-30 23:26:27,714] {manager.py:496} INFO - Created Permission View: can read on DAG:podsight_ETL
+[2022-04-30 23:26:27,732] {logging_mixin.py:109} INFO - [2022-04-30 23:26:27,731] {manager.py:496} INFO - Created Permission View: can edit on DAG:podsight_ETL
+[2022-04-30 23:26:27,736] {logging_mixin.py:109} INFO - [2022-04-30 23:26:27,736] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-30 23:26:27,752] {logging_mixin.py:109} INFO - [2022-04-30 23:26:27,751] {dag.py:2417} INFO - Creating ORM DAG for podsight_ETL
+[2022-04-30 23:26:27,770] {logging_mixin.py:109} INFO - [2022-04-30 23:26:27,770] {dag.py:2937} INFO - Setting next_dagrun for podsight_ETL to 2022-04-17 00:00:00+00:00
+[2022-04-30 23:26:27,793] {processor.py:171} INFO - Processing /opt/airflow/dags/podsight_ETL.py took 7.990 seconds
+[2022-04-30 23:26:58,841] {processor.py:163} INFO - Started process (PID=64) to work on /opt/airflow/dags/podsight_ETL.py
+[2022-04-30 23:26:58,843] {processor.py:642} INFO - Processing file /opt/airflow/dags/podsight_ETL.py for tasks to queue
+[2022-04-30 23:26:58,844] {logging_mixin.py:109} INFO - [2022-04-30 23:26:58,844] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podsight_ETL.py
+[2022-04-30 23:26:58,869] {processor.py:652} INFO - DAG(s) dict_keys(['podsight_ETL']) retrieved from /opt/airflow/dags/podsight_ETL.py
+[2022-04-30 23:26:58,890] {logging_mixin.py:109} INFO - [2022-04-30 23:26:58,890] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-30 23:26:58,909] {logging_mixin.py:109} INFO - [2022-04-30 23:26:58,909] {dag.py:2937} INFO - Setting next_dagrun for podsight_ETL to 2022-04-17 00:00:00+00:00
+[2022-04-30 23:26:58,922] {processor.py:171} INFO - Processing /opt/airflow/dags/podsight_ETL.py took 0.085 seconds
+[2022-04-30 23:27:29,003] {processor.py:163} INFO - Started process (PID=95) to work on /opt/airflow/dags/podsight_ETL.py
+[2022-04-30 23:27:29,005] {processor.py:642} INFO - Processing file /opt/airflow/dags/podsight_ETL.py for tasks to queue
+[2022-04-30 23:27:29,007] {logging_mixin.py:109} INFO - [2022-04-30 23:27:29,007] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podsight_ETL.py
+[2022-04-30 23:27:29,038] {processor.py:652} INFO - DAG(s) dict_keys(['podsight_ETL']) retrieved from /opt/airflow/dags/podsight_ETL.py
+[2022-04-30 23:27:29,074] {logging_mixin.py:109} INFO - [2022-04-30 23:27:29,074] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-30 23:27:29,099] {logging_mixin.py:109} INFO - [2022-04-30 23:27:29,099] {dag.py:2937} INFO - Setting next_dagrun for podsight_ETL to 2022-04-24T00:00:00+00:00
+[2022-04-30 23:27:29,115] {processor.py:171} INFO - Processing /opt/airflow/dags/podsight_ETL.py took 0.116 seconds
+[2022-04-30 23:57:56,687] {processor.py:163} INFO - Started process (PID=130) to work on /opt/airflow/dags/podsight_ETL.py
+[2022-04-30 23:57:56,690] {processor.py:642} INFO - Processing file /opt/airflow/dags/podsight_ETL.py for tasks to queue
+[2022-04-30 23:57:56,692] {logging_mixin.py:109} INFO - [2022-04-30 23:57:56,692] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podsight_ETL.py
+[2022-04-30 23:57:56,775] {processor.py:652} INFO - DAG(s) dict_keys(['podsight_ETL']) retrieved from /opt/airflow/dags/podsight_ETL.py
+[2022-04-30 23:57:56,859] {logging_mixin.py:109} INFO - [2022-04-30 23:57:56,859] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-30 23:57:56,987] {logging_mixin.py:109} INFO - [2022-04-30 23:57:56,987] {dag.py:2937} INFO - Setting next_dagrun for podsight_ETL to 2022-04-24T00:00:00+00:00
+[2022-04-30 23:57:57,031] {processor.py:171} INFO - Processing /opt/airflow/dags/podsight_ETL.py took 0.348 seconds
+[2022-04-30 23:58:33,167] {processor.py:163} INFO - Started process (PID=141) to work on /opt/airflow/dags/podsight_ETL.py
+[2022-04-30 23:58:33,936] {processor.py:642} INFO - Processing file /opt/airflow/dags/podsight_ETL.py for tasks to queue
+[2022-04-30 23:58:34,484] {logging_mixin.py:109} INFO - [2022-04-30 23:58:34,391] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podsight_ETL.py
+[2022-04-30 23:58:48,580] {processor.py:652} INFO - DAG(s) dict_keys(['podsight_ETL']) retrieved from /opt/airflow/dags/podsight_ETL.py
+[2022-04-30 23:58:57,665] {logging_mixin.py:109} INFO - [2022-04-30 23:58:57,664] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-30 23:58:58,277] {logging_mixin.py:109} INFO - [2022-04-30 23:58:58,276] {dag.py:2937} INFO - Setting next_dagrun for podsight_ETL to 2022-04-24T00:00:00+00:00
+[2022-04-30 23:58:58,406] {processor.py:171} INFO - Processing /opt/airflow/dags/podsight_ETL.py took 27.919 seconds

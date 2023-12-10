@@ -1,0 +1,21 @@
+[2022-05-08 03:40:54,613] {processor.py:163} INFO - Started process (PID=54502) to work on /opt/airflow/dags/ETL_script.py
+[2022-05-08 03:40:54,631] {processor.py:642} INFO - Processing file /opt/airflow/dags/ETL_script.py for tasks to queue
+[2022-05-08 03:40:54,640] {logging_mixin.py:109} INFO - [2022-05-08 03:40:54,639] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_script.py
+[2022-05-08 03:40:54,934] {processor.py:652} INFO - DAG(s) dict_keys(['ETL_script']) retrieved from /opt/airflow/dags/ETL_script.py
+[2022-05-08 03:40:55,238] {logging_mixin.py:109} INFO - [2022-05-08 03:40:55,238] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 03:40:55,318] {logging_mixin.py:109} INFO - [2022-05-08 03:40:55,318] {dag.py:2937} INFO - Setting next_dagrun for ETL_script to 2022-05-08T00:00:00+00:00
+[2022-05-08 03:40:55,365] {processor.py:171} INFO - Processing /opt/airflow/dags/ETL_script.py took 0.831 seconds
+[2022-05-08 06:50:39,028] {processor.py:163} INFO - Started process (PID=54513) to work on /opt/airflow/dags/ETL_script.py
+[2022-05-08 06:50:39,031] {processor.py:642} INFO - Processing file /opt/airflow/dags/ETL_script.py for tasks to queue
+[2022-05-08 06:50:39,033] {logging_mixin.py:109} INFO - [2022-05-08 06:50:39,033] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_script.py
+[2022-05-08 06:50:39,098] {processor.py:652} INFO - DAG(s) dict_keys(['ETL_script']) retrieved from /opt/airflow/dags/ETL_script.py
+[2022-05-08 06:50:39,146] {logging_mixin.py:109} INFO - [2022-05-08 06:50:39,146] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 06:50:39,169] {logging_mixin.py:109} INFO - [2022-05-08 06:50:39,168] {dag.py:2937} INFO - Setting next_dagrun for ETL_script to 2022-05-08T00:00:00+00:00
+[2022-05-08 06:50:39,190] {processor.py:171} INFO - Processing /opt/airflow/dags/ETL_script.py took 0.171 seconds
+[2022-05-08 12:00:20,320] {processor.py:163} INFO - Started process (PID=54535) to work on /opt/airflow/dags/ETL_script.py
+[2022-05-08 12:00:20,325] {processor.py:642} INFO - Processing file /opt/airflow/dags/ETL_script.py for tasks to queue
+[2022-05-08 12:00:20,327] {logging_mixin.py:109} INFO - [2022-05-08 12:00:20,327] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_script.py
+[2022-05-08 12:00:20,407] {processor.py:652} INFO - DAG(s) dict_keys(['ETL_script']) retrieved from /opt/airflow/dags/ETL_script.py
+[2022-05-08 12:00:20,460] {logging_mixin.py:109} INFO - [2022-05-08 12:00:20,460] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:00:20,495] {logging_mixin.py:109} INFO - [2022-05-08 12:00:20,494] {dag.py:2937} INFO - Setting next_dagrun for ETL_script to 2022-05-08T00:00:00+00:00
+[2022-05-08 12:00:20,520] {processor.py:171} INFO - Processing /opt/airflow/dags/ETL_script.py took 0.208 seconds

@@ -1,0 +1,40 @@
+Create or replace table sandbox.Raw.TenK_placeholders as
+SELECT
+  data_retrieval_time,
+  guid,
+  type,
+  thumbnail,
+  Placeholders_id,
+  MAX(IF(custom_field_value.custom_field_name = 'Engineering Tech Stack', custom_field_value.value, NULL)) AS Engineering_Tech_Stack,
+  MAX(IF(custom_field_value.custom_field_name = 'Legal Name', custom_field_value.value, NULL)) AS Legal_Name,
+  MAX(IF(custom_field_value.custom_field_name = 'GL Business Unit', custom_field_value.value, NULL)) AS GL_Business_Unit,
+  MAX(IF(custom_field_value.custom_field_name = 'Timezones', custom_field_value.value, NULL)) AS Timezones,
+  MAX(IF(custom_field_value.custom_field_name = 'Director', custom_field_value.value, NULL)) AS Director,
+  displayName,
+  title,
+  location,
+  discipline,
+  color,
+  billrate,
+  abbreviation,
+  user_type_id,
+  role
+FROM
+  `sandbox.Landing.TenK_placeholders`,
+  UNNEST(custom_field_values.data) AS custom_field_value,
+  UNNEST([custom_field_values.paging]) AS custom_field_paging
+GROUP BY
+  data_retrieval_time,
+  guid,
+  type,
+  thumbnail,
+  Placeholders_id,
+  displayName,
+  title,
+  location,
+  discipline,
+  color,
+  billrate,
+  abbreviation,
+  user_type_id,
+  role;

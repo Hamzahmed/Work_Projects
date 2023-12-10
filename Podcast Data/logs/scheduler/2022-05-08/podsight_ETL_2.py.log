@@ -1,0 +1,15 @@
+[2022-05-08 03:40:54,668] {processor.py:163} INFO - Started process (PID=54503) to work on /opt/airflow/dags/podsight_ETL_2.py
+[2022-05-08 03:40:54,685] {processor.py:642} INFO - Processing file /opt/airflow/dags/podsight_ETL_2.py for tasks to queue
+[2022-05-08 03:40:54,791] {logging_mixin.py:109} INFO - [2022-05-08 03:40:54,790] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podsight_ETL_2.py
+[2022-05-08 03:40:54,925] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podsight_ETL_2.py
+[2022-05-08 03:40:55,003] {processor.py:171} INFO - Processing /opt/airflow/dags/podsight_ETL_2.py took 0.420 seconds
+[2022-05-08 06:50:39,028] {processor.py:163} INFO - Started process (PID=54514) to work on /opt/airflow/dags/podsight_ETL_2.py
+[2022-05-08 06:50:39,031] {processor.py:642} INFO - Processing file /opt/airflow/dags/podsight_ETL_2.py for tasks to queue
+[2022-05-08 06:50:39,033] {logging_mixin.py:109} INFO - [2022-05-08 06:50:39,033] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podsight_ETL_2.py
+[2022-05-08 06:50:39,059] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podsight_ETL_2.py
+[2022-05-08 06:50:39,082] {processor.py:171} INFO - Processing /opt/airflow/dags/podsight_ETL_2.py took 0.059 seconds
+[2022-05-08 12:00:20,321] {processor.py:163} INFO - Started process (PID=54536) to work on /opt/airflow/dags/podsight_ETL_2.py
+[2022-05-08 12:00:20,325] {processor.py:642} INFO - Processing file /opt/airflow/dags/podsight_ETL_2.py for tasks to queue
+[2022-05-08 12:00:20,327] {logging_mixin.py:109} INFO - [2022-05-08 12:00:20,327] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/podsight_ETL_2.py
+[2022-05-08 12:00:20,354] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/podsight_ETL_2.py
+[2022-05-08 12:00:20,381] {processor.py:171} INFO - Processing /opt/airflow/dags/podsight_ETL_2.py took 0.063 seconds

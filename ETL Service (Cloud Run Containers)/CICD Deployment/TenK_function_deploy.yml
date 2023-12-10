@@ -1,0 +1,79 @@
+name: Deploy to Cloud Function
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'TenK/TenK_Google_Functions/**'
+
+env:
+  PROJECT_ID: sandbox
+  FUNCTION_REGION: us-central1
+
+jobs:
+  identify-changes:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 2
+
+    - name: Get changed files
+      id: changed-files
+      uses: tj-actions/changed-files@v39
+
+    - name: Extract modified folders and set matrix
+      id: set-matrix
+      run: |
+        folders=()
+        for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+          folder=$(echo "$file" | awk -F'/' '{print $3}')
+          folders+=("$folder")
+        done
+        unique_folders=($(echo "${folders[@]}" | tr ' ' '\n' | sort -u | tr '\n' ' '))
+        matrix_value=$(echo "${unique_folders[@]}" | jq -R -s -c 'split(" ")')
+        echo "::set-output name=matrix::$matrix_value"
+
+  deploy-function:
+    needs: identify-changes
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        folder: ${{fromJson(needs.identify-changes.outputs.matrix)}}
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Authenticate with GCP
+      run: |
+        echo '${{ secrets.GCPSECRETSCONNECTION }}' | gcloud auth activate-service-account --key-file=-
+        gcloud config set project ${{ env.PROJECT_ID }}
+
+    - name: Deploy to Google Cloud Functions
+      run: |
+        cd TenK/TenK_Google_Functions/${{ matrix.folder }}
+        
+        folder_name="${{ matrix.folder }}"
+        function_name=$(echo "$folder_name" | tr '[:upper:]' '[:lower:]' | tr '_' '-')
+        
+        # Read entry point from config.json
+        entry_point=$(jq -r '.entry_point' config.json)
+        
+        echo "Function Name: $function_name"
+        echo "Entry Point: $entry_point"
+        
+        gcloud functions deploy $function_name \
+            --gen2 \
+            --runtime python310 \
+            --trigger-http \
+            --region ${{ env.FUNCTION_REGION }} \
+            --project ${{ env.PROJECT_ID }} \
+            --entry-point=$entry_point \
+            --allow-unauthenticated \
+            --service-account=${{ secrets.SERVICE_ACCOUNT_EMAIL }} \
+            --memory=512MB \
+            --timeout=300s
