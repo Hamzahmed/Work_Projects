@@ -10,12 +10,13 @@ In addition to partitioning, we leveraged GZIP compression to further optimize t
 
 By implementing partitioning and GZIP compression techniques, we not only improved the performance and efficiency of the Athena tables but also contributed to reducing the overall costs associated with data scanning. Our efforts demonstrate our commitment to optimizing our client's AWS ecosystem, ensuring that their data operations are streamlined and cost-effective.
 
-## Stack
-
+### Stack
 AWS Redshift
-AWS Glue ETL
+\
 AWS Athena
+\
 S3 Storage Buckets
-Python 
+\
 SQL
+\
 XML
