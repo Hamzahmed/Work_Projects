@@ -9,3 +9,13 @@ We carefully designed the partitioning scheme, creating six partitions based on 
 In addition to partitioning, we leveraged GZIP compression to further optimize the Athena tables. By compressing the data using GZIP, we were able to significantly reduce the data size scanned during queries. This optimization resulted in a reduction in the scanned data from 3.47 MB to 2.30 MB, further lowering costs. It's important to note that Athena charges based on the size of data scanned, so this compression technique led to cost savings for our client.
 
 By implementing partitioning and GZIP compression techniques, we not only improved the performance and efficiency of the Athena tables but also contributed to reducing the overall costs associated with data scanning. Our efforts demonstrate our commitment to optimizing our client's AWS ecosystem, ensuring that their data operations are streamlined and cost-effective.
+
+## Stack
+
+AWS Redshift
+AWS Glue ETL
+AWS Athena
+S3 Storage Buckets
+Python 
+SQL
+XML
